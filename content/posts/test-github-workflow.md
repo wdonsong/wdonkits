@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Test Github Workflow"
+date: 2024-02-04T20:17:36+08:00
 draft: false
 tags: []
 showToc: true
@@ -19,9 +19,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+  image: "<image path/url>" # image path/url
+  alt: "<alt text>" # alt text
+  caption: "<text>" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: true # only hide on current single page
 ---
