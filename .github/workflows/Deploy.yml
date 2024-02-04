@@ -31,7 +31,7 @@ jobs:
           host: ${{ secrets.ALIYUN_HOST }}
           username: ${{ secrets.ALIYUN_USER }}
           password: ${{ secrets.ALIYUN_PASSWORD }}
-          script: bash /root/blog_del.sh
+          script: bash /usr/local/bin/blog_del.sh
           
       # 用SCP将文件传到远端服务器
       - name: SCP Files to aliyun
