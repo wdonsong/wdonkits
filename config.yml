@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: 'https://wdonkits.tech/'
+baseURL: "http://wdonkits.tech/"
 languageCode: en-us
-title: Wdon's Notes
+title: 湛劢的全栈学习笔记
 paginate: 8
 theme: ["PaperMod"]
 
@@ -21,32 +21,32 @@ minify:
   minifyOutput: true
 
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        taxonomies:
-          # category: categories
-          tag: tags
-          series: series
-        menu:
-            main:
-                - name: Home
-                  url: /
-                  weight: 1
-                - name: Archive
-                  url: archives/
-                  weight: 2
-                - identifier: tags
-                  name: Tags
-                  url: tags/
-                  weight: 3
-                - identifier: search
-                  name: Search
-                  url: search/
-                  weight: 4
-                - name: About
-                  url: about/
-                  weight: 5
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      # category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Archive
+          url: archives/
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: tags/
+          weight: 3
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 4
+        - name: About
+          url: about/
+          weight: 5
 
 outputs:
   home:
@@ -87,22 +87,22 @@ params:
       I'm **Wdon**
 
   socialIcons:
-        - name: github
-          url: "https://github.com/wdonsong"
-#        - name: twitter
-#          url: "https://twitter.com/m1ssuo"
-#        - name: instagram
-#          url: "https://instagram.com/m1ssuo"
-#        - name: discord
-#          url: "https://discordapp.com/users/missuo#7448"
-#        - name: telegram
-#          url: "https://t.me/missuo"
-#        - name: tiktok
-#          url: "https://www.tiktok.com/@m1ssuo"
-#        - name: youtube
-#          url: "https://youtube.com/@missuo"
-#        - name: rss
-#          url: "https://missuo.me/index.xml"
+    - name: github
+      url: "https://github.com/wdonsong"
+  #        - name: twitter
+  #          url: "https://twitter.com/m1ssuo"
+  #        - name: instagram
+  #          url: "https://instagram.com/m1ssuo"
+  #        - name: discord
+  #          url: "https://discordapp.com/users/missuo#7448"
+  #        - name: telegram
+  #          url: "https://t.me/missuo"
+  #        - name: tiktok
+  #          url: "https://www.tiktok.com/@m1ssuo"
+  #        - name: youtube
+  #          url: "https://youtube.com/@missuo"
+  #        - name: rss
+  #          url: "https://missuo.me/index.xml"
 
   editPost:
     URL: "https://github.com/wdsonsong/wdonkits/content"
@@ -142,13 +142,13 @@ params:
   #     keys: ["title", "permalink", "summary", "content"]
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        noClasses: false
-        anchorLineNos: true
-        codeFences: true
-        guessSyntax: true
-        lineNos: false
-        style: darcula
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: darcula
