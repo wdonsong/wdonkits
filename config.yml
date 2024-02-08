@@ -61,7 +61,7 @@ params:
   DateFormat: "Monday, January 2, 2006"
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: auto
+  defaultTheme: light
   disableThemeToggle: false
   ShowShareButtons: false
   ShowReadingTime: true
