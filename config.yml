@@ -57,7 +57,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Record, Share and Archive"
-  author: Wdon
+  author: 湛劢
   DateFormat: "Monday, January 2, 2006"
   # author: ["Me", "You"] # multiple authors
 
@@ -82,9 +82,15 @@ params:
     enabled: false
 
   homeInfoParams:
-    Title: "Hi there 👋"
+    # Title: "Hi"
     Content: >
-      I'm **Wdon**
+
+      **挤在公车像个沙丁鱼**<br>
+      **上班下班每天是规律**<br>
+      **这么多的人到哪里去**<br>
+      **每个面孔写着无奈**<br>
+      **爸爸妈妈彼此没有爱**<br>
+      **难道这就是生命的真理**
 
   socialIcons:
     - name: github
