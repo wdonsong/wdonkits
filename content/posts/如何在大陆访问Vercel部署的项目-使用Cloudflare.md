@@ -1,6 +1,6 @@
 ---
-title: "Test New Ssh User"
-date: 2024-02-04T20:59:26+08:00
+title: "如何在大陆访问Vercel部署的项目"
+date: 2024-06-28T19:43:31+08:00
 draft: false
 tags: []
 showToc: true
@@ -19,9 +19,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+  image: "<image path/url>" # image path/url
+  alt: "<alt text>" # alt text
+  caption: "<text>" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: true # only hide on current single page
 ---

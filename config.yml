@@ -82,7 +82,7 @@ params:
     enabled: false
 
   homeInfoParams:
-    # Title: "Hi"
+    Title: "Hi There"
     Content: >
 
   socialIcons:
